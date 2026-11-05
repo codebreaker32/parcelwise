@@ -18,7 +18,7 @@ people:
     team: Payments & Orders
     owns: [payment-gateway/, backend/src/checkout/, backend/src/orders/, backend/src/refunds/ (shared)]
     works_on: "Payment provider interface refactor, Nov 3–18 (projects/payment-gateway-refactor.md)"
-    slack: TBD                       # add Bhawna's Slack username
+    slack: bhawnanotiyal25
 
   - name: Alex
     real: false
