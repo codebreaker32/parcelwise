@@ -1,7 +1,7 @@
-// Checkout API (stub). Owner: Sam
-import { stripeProvider } from "../../../payment-gateway/src/stripeProvider";
+// Checkout API. Owner: Sam
+// WIP: checkout no longer hard-wires Stripe; it receives a PaymentProvider.
+import type { PaymentProvider } from "../../../payment-gateway/src/provider";
 
-export async function checkout(orderId: string, amount: number) {
-  // Stripe is hard-wired here today; the refactor (projects/payment-gateway-refactor.md) removes this.
-  return stripeProvider.charge({ orderId, amount, currency: "INR" });
+export async function checkout(provider: PaymentProvider, orderId: string, amount: number) {
+  return provider.charge({ orderId, amount, currency: "INR" });
 }
