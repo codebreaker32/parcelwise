@@ -1,6 +1,7 @@
 # Parcelwise team. Aman and Bhawna are REAL people (the Greenlight builders).
 # Alex, Riya and Dev are FICTIONAL demo teammates.
 # `seniority` (+1 vote weight for senior/lead) and `project_owner` (breaks vote ties) are used by Greenlight.
+# `demo_account: true` = a Slack account controlled by Aman (Gmail + alias) that plays a fictional person.
 # `slack` = the person's real Slack username (needed for Greenlight to invite them). TBD = decide while testing.
 people:
   - name: Aman
@@ -27,6 +28,8 @@ people:
 
   - name: Alex
     real: false
+    demo_account: true              # a Slack account controlled by Aman, for the demo
+    email: smrtamy23+alex@gmail.com
     seniority: mid
     project_owner: false
     github: alex-parcelwise
@@ -34,10 +37,12 @@ people:
     team: Finance
     owns: [finance/reconciliation/]
     works_on: "Month-end close"
-    slack: TBD                       # decide while testing (a friend, or leave unassigned)
+    slack: TBD                       # fill in after this demo account joins Slack
 
   - name: Riya
     real: false
+    demo_account: true              # a Slack account controlled by Aman, for the demo
+    email: smrtamy23+riya@gmail.com
     seniority: mid
     project_owner: false
     github: riya-parcelwise
@@ -45,7 +50,7 @@ people:
     team: Customer Support
     owns: [backend/src/refunds/ (shared)]
     works_on: "Refund SLA improvements"
-    slack: TBD                       # decide while testing
+    slack: TBD                       # fill in after this demo account joins Slack
 
   - name: Dev
     real: false

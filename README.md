@@ -1,6 +1,6 @@
 # Parcelwise (fictional demo company)
 
-> **This repo is demo data** for [Greenlight](https://github.com/codebreaker32/greenlight), a Switch hackathon project. Parcelwise is a made-up company and the code is stubs; nothing here processes real payments. **Aman and Bhawna are real** (the Greenlight builders, playing themselves). **Alex, Riya and Dev are fictional** teammates.
+> **This repo is demo data** for [Greenlight](https://github.com/codebreaker32/greenlight), a Switch hackathon project. Parcelwise is a made-up company and the code is stubs; nothing here processes real payments. **Aman and Bhawna are real** (the Greenlight builders, playing themselves). **Alex, Riya and Dev are fictional** teammates. In Slack, Alex and Riya are played by demo accounts controlled by Aman (`demo_account: true` in `team/people.yml`).
 
 Parcelwise is a small online store. Customers browse the **frontend**, the **backend** handles checkout, orders and refunds, the **payment-gateway** service talks to the card processor (Stripe today), **finance** reconciles payouts, and there's a **mobile app**.
 
