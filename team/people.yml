@@ -1,9 +1,12 @@
 # Parcelwise team. Aman and Bhawna are REAL people (the Greenlight builders).
 # Alex, Riya and Dev are FICTIONAL demo teammates.
+# `seniority` (+1 vote weight for senior/lead) and `project_owner` (breaks vote ties) are used by Greenlight.
 # `slack` = the person's real Slack username (needed for Greenlight to invite them). TBD = decide while testing.
 people:
   - name: Aman
     real: true
+    seniority: mid
+    project_owner: false
     github: codebreaker32
     role: Frontend developer
     team: Storefront
@@ -13,6 +16,8 @@ people:
 
   - name: Bhawna
     real: true
+    seniority: lead
+    project_owner: true
     github: BhawnaNautiyall
     role: Backend lead
     team: Payments & Orders
@@ -22,6 +27,8 @@ people:
 
   - name: Alex
     real: false
+    seniority: mid
+    project_owner: false
     github: alex-parcelwise
     role: Finance analyst
     team: Finance
@@ -31,8 +38,10 @@ people:
 
   - name: Riya
     real: false
+    seniority: mid
+    project_owner: false
     github: riya-parcelwise
-    role: Support lead
+    role: Support specialist
     team: Customer Support
     owns: [backend/src/refunds/ (shared)]
     works_on: "Refund SLA improvements"
@@ -40,6 +49,8 @@ people:
 
   - name: Dev
     real: false
+    seniority: mid
+    project_owner: false
     github: dev-parcelwise
     role: Mobile developer
     team: Mobile
