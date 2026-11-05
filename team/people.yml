@@ -1,0 +1,42 @@
+# Cartwise team (fictional). `slack` = the real Slack username that plays this person in the demo.
+# Slack usernames marked TBD are decided while testing.
+people:
+  - name: Priya
+    github: priya-cartwise
+    role: Frontend developer
+    team: Storefront
+    owns: [frontend/]
+    works_on: "Checkout page redesign (projects/checkout-redesign.md)"
+    slack: aman.bihari.ug23          # played by Aman
+
+  - name: Sam
+    github: sam-cartwise
+    role: Backend lead
+    team: Payments & Orders
+    owns: [payment-gateway/, backend/src/checkout/, backend/src/orders/, backend/src/refunds/ (shared)]
+    works_on: "Payment provider interface refactor, Nov 3–18 (projects/payment-gateway-refactor.md)"
+    slack: TBD                       # played by Bhawna: add her Slack username
+
+  - name: Alex
+    github: alex-cartwise
+    role: Finance analyst
+    team: Finance
+    owns: [finance/reconciliation/]
+    works_on: "Month-end close"
+    slack: TBD                       # decide while testing (a friend, or leave unassigned)
+
+  - name: Riya
+    github: riya-cartwise
+    role: Support lead
+    team: Customer Support
+    owns: [backend/src/refunds/ (shared)]
+    works_on: "Refund SLA improvements"
+    slack: TBD                       # decide while testing
+
+  - name: Dev
+    github: dev-cartwise
+    role: Mobile developer
+    team: Mobile
+    owns: [mobile-app/]
+    works_on: "App v2.3 release (projects/mobile-v2.3.md)"
+    slack: none                      # not played by anyone; shows the agents don't just list everyone
