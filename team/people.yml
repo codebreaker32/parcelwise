@@ -1,0 +1,48 @@
+# Parcelwise team. Aman and Bhawna are REAL people (the Greenlight builders).
+# Alex, Riya and Dev are FICTIONAL demo teammates.
+# `slack` = the person's real Slack username (needed for Greenlight to invite them). TBD = decide while testing.
+people:
+  - name: Aman
+    real: true
+    github: codebreaker32
+    role: Frontend developer
+    team: Storefront
+    owns: [frontend/]
+    works_on: "Checkout page redesign (projects/checkout-redesign.md)"
+    slack: aman.bihari.ug23
+
+  - name: Bhawna
+    real: true
+    github: BhawnaNautiyall
+    role: Backend lead
+    team: Payments & Orders
+    owns: [payment-gateway/, backend/src/checkout/, backend/src/orders/, backend/src/refunds/ (shared)]
+    works_on: "Payment provider interface refactor, Nov 3–18 (projects/payment-gateway-refactor.md)"
+    slack: TBD                       # add Bhawna's Slack username
+
+  - name: Alex
+    real: false
+    github: alex-parcelwise
+    role: Finance analyst
+    team: Finance
+    owns: [finance/reconciliation/]
+    works_on: "Month-end close"
+    slack: TBD                       # decide while testing (a friend, or leave unassigned)
+
+  - name: Riya
+    real: false
+    github: riya-parcelwise
+    role: Support lead
+    team: Customer Support
+    owns: [backend/src/refunds/ (shared)]
+    works_on: "Refund SLA improvements"
+    slack: TBD                       # decide while testing
+
+  - name: Dev
+    real: false
+    github: dev-parcelwise
+    role: Mobile developer
+    team: Mobile
+    owns: [mobile-app/]
+    works_on: "App v2.3 release (projects/mobile-v2.3.md)"
+    slack: none                      # nobody plays Dev; shows the agents don't just list everyone
