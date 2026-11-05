@@ -1,0 +1,9 @@
+# Who owns what at Cartwise (fictional handles; see team/people.yml)
+/frontend/                    @priya-cartwise
+/backend/src/checkout/        @sam-cartwise
+/backend/src/orders/          @sam-cartwise
+/backend/src/refunds/         @riya-cartwise @sam-cartwise
+/payment-gateway/             @sam-cartwise
+/finance/                     @alex-cartwise
+/mobile-app/                  @dev-cartwise
+/policies/                    @sam-cartwise @alex-cartwise
