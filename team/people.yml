@@ -37,7 +37,7 @@ people:
     team: Finance
     owns: [finance/reconciliation/]
     works_on: "Month-end close"
-    slack: TBD                       # fill in after this demo account joins Slack
+    slack: smrtamy23_alex            # demo account controlled by Aman
 
   - name: Riya
     real: false
