@@ -1,7 +1,7 @@
 # Parcelwise team. Aman and Bhawna are REAL people (the Greenlight builders).
 # Alex, Riya and Dev are FICTIONAL demo teammates.
 # `seniority` (+1 vote weight for senior/lead) and `project_owner` (breaks vote ties) are used by Greenlight.
-# `demo_account: true` = a Slack account controlled by Aman (Gmail + alias) that plays a fictional person.
+# `demo_account: true` = a Slack account controlled by Aman or Bhawna that plays a fictional person.
 # `slack` = the person's real Slack username (needed for Greenlight to invite them). TBD = decide while testing.
 people:
   - name: Aman
@@ -28,8 +28,6 @@ people:
 
   - name: Alex
     real: false
-    demo_account: true              # a Slack account controlled by Aman, for the demo
-    email: smrtamy23+alex@gmail.com
     seniority: mid
     project_owner: false
     github: alex-parcelwise
@@ -37,12 +35,11 @@ people:
     team: Finance
     owns: [finance/reconciliation/]
     works_on: "Month-end close"
-    slack: smrtamy23_alex            # demo account controlled by Aman
+    slack: none                      # inactive: demo account deactivated; Greenlight treats Alex as not on Slack
 
   - name: Riya
     real: false
-    demo_account: true              # a Slack account controlled by Aman, for the demo
-    email: smrtamy23+riya@gmail.com
+    demo_account: true              # a Slack account controlled by Bhawna, for the demo
     seniority: mid
     project_owner: false
     github: riya-parcelwise
@@ -50,10 +47,11 @@ people:
     team: Customer Support
     owns: [backend/src/refunds/ (shared)]
     works_on: "Refund SLA improvements"
-    slack: TBD                       # fill in after this demo account joins Slack
+    slack: bhawnanautiyalll          # demo account controlled by Bhawna
 
   - name: Dev
     real: false
+    demo_account: true              # a Slack account controlled by Aman, for the demo
     seniority: mid
     project_owner: false
     github: dev-parcelwise
@@ -61,4 +59,4 @@ people:
     team: Mobile
     owns: [mobile-app/]
     works_on: "App v2.3 release (projects/mobile-v2.3.md)"
-    slack: none                      # nobody plays Dev; shows the agents don't just list everyone
+    slack: smrtamy23                 # demo account controlled by Aman
