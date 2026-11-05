@@ -1,0 +1,10 @@
+# Who owns what at Parcelwise.
+# Real people: @codebreaker32 (Aman), @BhawnaNautiyall (Bhawna). The other handles are fictional (see team/people.yml).
+/frontend/                    @codebreaker32
+/backend/src/checkout/        @BhawnaNautiyall
+/backend/src/orders/          @BhawnaNautiyall
+/backend/src/refunds/         @riya-parcelwise @BhawnaNautiyall
+/payment-gateway/             @BhawnaNautiyall
+/finance/                     @alex-parcelwise
+/mobile-app/                  @dev-parcelwise
+/policies/                    @BhawnaNautiyall @alex-parcelwise
