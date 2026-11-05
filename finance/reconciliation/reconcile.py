@@ -1,4 +1,4 @@
-"""Daily payout reconciliation (stub). Owner: Alex.
+"""Daily payout reconciliation (stub). Owner: Dev.
 
 Reads ONE payout file per provider per day. Today: Stripe only.
 A second provider means a second payout format to parse and match.

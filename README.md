@@ -1,6 +1,6 @@
 # Parcelwise (fictional demo company)
 
-> **This repo is demo data** for [Greenlight](https://github.com/codebreaker32/greenlight), a Switch hackathon project. Parcelwise is a made-up company and the code is stubs; nothing here processes real payments. **Aman and Bhawna are real** (the Greenlight builders, playing themselves). **Alex, Riya and Dev are fictional** teammates. In Slack, Dev and Riya are played by demo accounts controlled by Aman and Bhawna (`demo_account: true` in `team/people.yml`); Alex is inactive (not on Slack).
+> **This repo is demo data** for [Greenlight](https://github.com/codebreaker32/greenlight), a Switch hackathon project. Parcelwise is a made-up company and the code is stubs; nothing here processes real payments. **Aman and Bhawna are real** (the Greenlight builders, playing themselves). **Dev, Riya and Alex are fictional** teammates. In Slack, Dev and Riya are played by demo accounts controlled by Aman and Bhawna (`demo_account: true` in `team/people.yml`); Alex is inactive (not on Slack).
 
 Parcelwise is a small online store. Customers browse the **frontend**, the **backend** handles checkout, orders and refunds, the **payment-gateway** service talks to the card processor (Stripe today), **finance** reconciles payouts, and there's a **mobile app**.
 
@@ -11,8 +11,8 @@ Parcelwise is a small online store. Customers browse the **frontend**, the **bac
 | `backend/src/checkout`, `backend/src/orders` | Checkout + order API | Bhawna |
 | `backend/src/refunds` | Refund handling | Riya (support, fictional) + Bhawna |
 | `payment-gateway/` | Payment provider integration (Stripe) | Bhawna |
-| `finance/reconciliation/` | Daily payout reconciliation | Alex (fictional) |
-| `mobile-app/` | Mobile app | Dev (fictional) |
+| `finance/reconciliation/` | Daily payout reconciliation | Dev (fictional) |
+| `mobile-app/` | Mobile app | Alex (fictional) |
 | `team/people.yml` | Who's who: role, team, what they own, Slack username | — |
 | `policies/` | Rules every change must respect | — |
 | `projects/` | Work in progress right now | — |

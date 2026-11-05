@@ -30,11 +30,11 @@ people:
     real: false
     seniority: mid
     project_owner: false
-    github: alex-parcelwise
-    role: Finance analyst
-    team: Finance
-    owns: [finance/reconciliation/]
-    works_on: "Month-end close"
+    github: dev-parcelwise
+    role: Mobile developer
+    team: Mobile
+    owns: [mobile-app/]
+    works_on: "App v2.3 release (projects/mobile-v2.3.md)"
     slack: none                      # inactive: demo account deactivated; Greenlight treats Alex as not on Slack
 
   - name: Riya
@@ -54,9 +54,9 @@ people:
     demo_account: true              # a Slack account controlled by Aman, for the demo
     seniority: mid
     project_owner: false
-    github: dev-parcelwise
-    role: Mobile developer
-    team: Mobile
-    owns: [mobile-app/]
-    works_on: "App v2.3 release (projects/mobile-v2.3.md)"
+    github: alex-parcelwise
+    role: Finance analyst
+    team: Finance
+    owns: [finance/reconciliation/]
+    works_on: "Month-end close"
     slack: smrtamy23                 # demo account controlled by Aman

@@ -5,6 +5,6 @@
 /backend/src/orders/          @BhawnaNautiyall
 /backend/src/refunds/         @riya-parcelwise @BhawnaNautiyall
 /payment-gateway/             @BhawnaNautiyall
-/finance/                     @alex-parcelwise
-/mobile-app/                  @dev-parcelwise
-/policies/                    @BhawnaNautiyall @alex-parcelwise
+/finance/                     @dev-parcelwise
+/mobile-app/                  @alex-parcelwise
+/policies/                    @BhawnaNautiyall @dev-parcelwise
